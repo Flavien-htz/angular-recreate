@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+    <title>Recréer Angular</title>
+</head>
+<body>
+
+<div class="container">
+    <article>
+        <header>
+            <h1>Recréer Angular</h1>
+        </header>
+
+        <div chrono>
+            Chronomètre
+        </div>
+
+        <input phone-number [with-spaces]="false" border-color="green" placeholder="Numéro de mobile" id="mobile-number">
+        <input phone-number placeholder="Numéro de fix" id="fix-number">
+        <input credit-card placeholder="Numéro de carte bleue" id="card-number">
+    </article>
+
+
+
+</div>
+<script src="src/app.ts" type="module"></script>
+</body>
+</html>

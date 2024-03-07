@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "lib": [
+      "decorators",
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.proxy"
+    ]
+  }
+}
